@@ -7,17 +7,7 @@ import java.util.stream.Stream;
 public enum Translation {
 
 	LUT("LUT", "Luther 2017", BookChapter::getNameGerman),
-	ELB("ELB", "Elberfelder", BookChapter::getNameGerman),
-	HFA("HFA", "Hoffnung für alle", BookChapter::getNameGerman),
 	SLT("SLT", "Schlachter 2000", BookChapter::getNameGerman),
-	ZB("ZB", "Zürcher Bibel", BookChapter::getNameGerman),
-	GNB("GNB", "Gute Nachricht Bibel", BookChapter::getNameGerman),
-	EU("EU", "Einheitsübersetzung", BookChapter::getNameGerman),
-	MENG("MENG", "Menge Bibel", BookChapter::getNameGerman),
-	NLB("NLB", "Neues Leben. Die Bibel", BookChapter::getNameGerman),
-	NEÜ("NEÜ", "Neue evangelistische Übersetzung", BookChapter::getNameGerman);
-	// ESV("ESV", "English Standard Version", BookChapter::getNameEnglish),
-	// NBV("NBV", "Nueva Biblia Viva", BookChapter::getNameSpanish);
 
 	private String abbreviation;
 	private String name;
